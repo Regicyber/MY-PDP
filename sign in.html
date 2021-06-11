@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.82.0">
+    <title>Sign in My-PDP</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="assets/dist/css/signin.css" rel="stylesheet">
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a style="background-image: url(assets/images/logo3.resized.jpeg); width: 100px; height: 50px;" class="navbar-brand" href="/"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown08">
+                            <li>
+                                <a class="dropdown-item" href="#">2023 Election</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Infrastructural projects</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Education Projects </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Structures</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown08">
+                            <li>
+                                <a class="dropdown-item" href="Structures-NWC.html">National Working Committee</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">National Executive Committee</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Board of Trustees (BoT)</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Former Presidents</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Former National Chairmen</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">PDP Governors</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about us.html" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown08">
+                            <li>
+                                <a class="dropdown-item" href="about us.html">PDP History</a>
+                            </li>
+
+
+                            <li>
+                                <a class="dropdown-item" href="about us.html">Code of Conduct</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Resolutions</a></li>
+                            <li><a class="dropdown-item" href="#">Board of Trustees</a></li>
+                    </li>
+                    </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="merchandise.html">PDP Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="sign in.html">Member Registration</a>
+                    </li>
+                </ul>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <a class="link-secondary" href="#" aria-label="Search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+                    </a>
+                    <a class="btn btn-sm btn-outline-secondary" href="sign in.html">Log In</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body class="text-center">
+
+    <main class="form-signin" style="padding-top: 50px;">
+        <form>
+            <img class="mb-4" src="assets/images/logo.png" alt="" width="100">
+            <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+            <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+
+            <div class="checkbox mb-3">
+                <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+            <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+        </form>
+    </main>
+
+
+
+</body>
+
+</html>
