@@ -124,7 +124,7 @@
 <body class="text-center">
 
     <main class="form-signin" style="padding-top: 50px;">
-        <form>
+        <form action="dashboard.html">
             <img class="mb-4" src="assets/images/logo.png" alt="" width="100">
             <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
@@ -142,12 +142,18 @@
           <input type="checkbox" value="remember-me"> Remember me
         </label>
             </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-            <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+            <button class="w-100 btn btn-lg btn-success" type="submit">Sign in</button>
+
+        </form>
+        <hr class="text-black-50">
+        <p>Not yet a member ?</p>
+        <form action="register.html">
+            <button class="w-50 btn btn-lg btn-secondary" type="submit" onclick="register.html">Sign up</button>
+            <p class="mt-5 mb-3 text-muted">My PDP 2021-2022</p>
         </form>
     </main>
 
-
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
